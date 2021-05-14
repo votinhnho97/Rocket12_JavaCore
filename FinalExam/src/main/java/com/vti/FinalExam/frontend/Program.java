@@ -31,7 +31,7 @@ public class Program {
 		System.out.print("Nhập vào projectID: ");
 		int projectId = scanner.nextInt();
 		List<User> users = managerController.getUserInProject(projectId);
-		System.out.println("Danh sách c4ác employee và manager trong project:");
+		System.out.println("Danh sách các employee và manager trong project:");
 		System.out.printf("%-10s %-20s %-10s\n", "ProjectId", "FullName", "Role");
 		for (User user : users) {
 			if (user instanceof Manager)

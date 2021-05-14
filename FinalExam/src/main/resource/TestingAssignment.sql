@@ -1,7 +1,7 @@
 -- create database
-DROP DATABASE IF EXISTS TestingSystem;
-CREATE DATABASE TestingSystem;
-USE TestingSystem;
+DROP DATABASE IF EXISTS FinalExam;
+CREATE DATABASE FinalExam;
+USE FinalExam;
 
 -- create table: User
 DROP TABLE IF EXISTS 	`User`;
